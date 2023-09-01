@@ -1,0 +1,13 @@
+apiVersion: v1
+name: mychart
+version: 1.0.0
+dependencies:
+- name: mysql
+  version: 9.12.1
+  repository: https://charts.bitnami.com/bitnami
+- name: jenkins
+  version: 2.5.4
+  repository: https://charts.helm.sh/stable
+- name: ourchart
+  version: 0.1.0
+  repository: "file:///home/ubuntu/charts/chart-dep/ourchart"

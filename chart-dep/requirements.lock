@@ -1,0 +1,12 @@
+dependencies:
+- name: mysql
+  repository: https://charts.bitnami.com/bitnami
+  version: 9.12.1
+- name: jenkins
+  repository: https://charts.helm.sh/stable
+  version: 2.5.4
+- name: ourchart
+  repository: file:///home/ubuntu/charts/chart-dep/ourchart
+  version: 0.1.0
+digest: sha256:50546ccdef4a681749ccb2bee44dcf0a073dbce32ea71a78bf8c5638efa9dc1a
+generated: "2023-09-01T10:01:00.71855932Z"
