@@ -1,0 +1,6 @@
+containerImage: nginx:1.17
+global:
+  app:
+    name: my-app
+    version: 1.0.0
+  environment: production

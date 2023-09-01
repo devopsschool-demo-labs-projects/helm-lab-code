@@ -1,0 +1,14 @@
+{
+   "$schema": "http://json-schema.org/draft-07/schema",
+   "required": [
+       "image",
+       "serviceType",
+       "port"
+   ],
+   "properties": {
+       "containerImage": {
+           "type": "string",
+           "enum": ["nginx:1.17", "nginx:1.18"]
+       }
+   }
+}
